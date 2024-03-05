@@ -57,14 +57,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'hw_2_app',
-    'my_app',
-    'dice_app',
+    # 'my_app',
+    # 'dice_app',
     # 'library_app',
     # 'debug_toolbar',
 ]
 
 MIDDLEWARE = [
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
+    # 'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -102,7 +102,7 @@ WSGI_APPLICATION = 'project_less.wsgi.application'
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db3.sqlite3',
+#         'NAME': BASE_DIR / 'db2.sqlite3',
 #     }
 # }
 

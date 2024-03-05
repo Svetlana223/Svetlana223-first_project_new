@@ -23,7 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # path('__debug__/', include("debug_toolbar.urls")),
     path('', include('hw_2_app.urls')),
-    path('les6/', include('my_app.urls')),
+    # path('les6/', include('my_app.urls')),
     # path('', include('library_app.urls')),
 ]
 
