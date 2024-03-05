@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% for article in articles %}
+        {% if article.public_flag %}
+            <a href="{{  article.get_absolute_url  }}">{{ article.title }}</a>
+        {% else %}
+            <p>{{ article.text }}</p>
+        {% endif %}
+    {% endfor %}
+</body>
+</html>

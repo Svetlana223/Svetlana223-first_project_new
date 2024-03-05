@@ -1,0 +1,10 @@
+{% extends 'library_app/base.html' %}
+{% block title %}create article{% endblock %}
+
+{% block content %}
+<form method="Post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Отправить">
+</form>
+{% endblock %}

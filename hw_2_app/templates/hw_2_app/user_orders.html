@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>Товары, заказанные пользователем за разные периоды</h2>
+
+{% for period, products in products_in_periods.items %}
+    <h3>За последние {{ period }}</h3>
+    {% if products %}
+        <ul> {% for product in products %}
+            <li>{{ product.name }} - {{ product.description }}</li>
+        {% endfor %} </ul>
+    {% else %}
+        <p>В этот период заказы отсутствуют.</p>
+    {% endif %}
+{% endfor %}
+</body>
+</html>
