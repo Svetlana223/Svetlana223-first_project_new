@@ -111,7 +111,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': os.environ.get("MYSQL_DBNAME"),
         'USER': os.environ.get("MYSQL_USER"),
-        'PASSWORD': 'Svetlana20',
+        'PASSWORD': 'os.environ.get("MYSQL_PASSWORD")',
         'HOST': os.environ.get("MYSQL_HOST"),
         'OPTIONS': {
             'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
