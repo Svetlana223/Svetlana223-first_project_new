@@ -6,3 +6,18 @@
 .env
 
 
+/dice_app/__pycache__/
+/dice_app/migrations/__pycache__/
+/hw_2_app/__pycache__/
+/hw_2_app/management/__pycache__/
+/hw_2_app/management/commands/__pycache__/
+/hw_2_app/migrations/__pycache__/
+/library_app/__pycache__/
+/library_app/management/__pycache__/
+/library_app/management/commands/__pycache__/
+/library_app/migrations/__pycache__/
+/my_app/__pycache__/
+/my_app/management/__pycache__/
+/my_app/management/commands/__pycache__/
+/my_app/migrations/__pycache__/
+/project_less/__pycache__/
