@@ -3,7 +3,7 @@
 *.sqlite3
 *.log
 *.pyc
-.env
+#.env
 
 
 /dice_app/__pycache__/
